@@ -72,3 +72,76 @@ print(type(n))
 o = None
 print(o)
 print(type(o))
+
+# Type Casting of Data Types in python
+
+# String
+ab = str("RadhaKrishna")
+print(ab)
+print(type(ab))
+
+# int
+bc = int(22)
+print(bc)
+print(type(bc))
+
+# float
+cd = float(14.5)
+print(cd)
+print(type(cd))
+
+# Complex
+de = complex(1+6j)
+print(de)
+print(type(de))
+
+# list
+ef = list(("Radha","Radha","Radha"))
+print(ef)
+print(type(ef))
+
+# tuple
+fg = tuple(("Parvati","Parvati","Parwati"))
+print(fg)
+print(type(fg))
+
+# Range
+gh = range(6)
+print(gh)
+print(type(gh))
+
+# dict
+hi = dict(name = "Radha")
+print(hi)
+print(type(hi))
+
+# Set
+ij = set(("Radha","Radha"))
+print(ij)
+print(type(ij))
+
+# Frozen set
+jk = frozenset(("Radha","Krishna"))
+print(jk)
+print(type(jk))
+
+# Bool
+kl = bool(5)
+print(kl)
+print(type(kl))
+
+# bytes
+lm = bytes(5)
+print(lm)
+print(type(lm))
+
+# bytearray
+mn = bytearray(5)
+print(mn)
+print(type(mn))
+
+# memoryview
+no = memoryview(bytes(5))
+print(no)
+print(type(no))
+
