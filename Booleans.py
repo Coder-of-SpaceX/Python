@@ -18,3 +18,5 @@ d = bool(0)
 e = bool()
 print(d)
 print(e)
+
+# Note when free, search on inbuilt function of python that is "isinstance()"
