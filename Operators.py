@@ -82,3 +82,16 @@ print("*" * 50)
 print("------|| IDENTITY OPERATORS ||------")
 
 
+
+
+
+print("*" * 50)
+print("------|| Membership Operators ||------")
+list1 = ["Radha","Krishna","Parvati","Shiv"]
+print("Radha" in list1)
+print("Brahma" not in list1)
+print("Saraswati" in list1)
+
+# Note - Do precedence after going at home.
+
+
