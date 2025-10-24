@@ -1,3 +1,4 @@
+# Just a Normal syntax of the operators 
 print(10 + 5)
 
 sum1 = 100 + 50
