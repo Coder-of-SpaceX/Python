@@ -80,8 +80,12 @@ print(not f > 40)
 
 print("*" * 50)
 print("------|| IDENTITY OPERATORS ||------")
-
-
+g = ["Radha","Krishna"]
+h = ["Radha","Krishna"]
+i = g
+print(g is h) #False
+print(h is i) #False
+print(g is i) #True
 
 
 
@@ -92,6 +96,12 @@ print("Radha" in list1)
 print("Brahma" not in list1)
 print("Saraswati" in list1)
 
-# Note - Do precedence after going at home.
-
-
+print("*" * 50)
+print("------|| Operatos Precedence ||------")
+# Parenthesis has the higher precedence in python 
+print((6 + 3) - (6+ 3))
+# Multiplication has higher precedence than addition.
+print(100 + 5 * 3)
+# Addition and Subtraction has both has the equal priority for precedence
+print(5+4-7+3)
+# so in tis case evaluation will be undertaken from left to right by default in python 
