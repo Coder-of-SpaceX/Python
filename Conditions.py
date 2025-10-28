@@ -104,4 +104,76 @@ else:
 # NOTE - after else no other statment can be used like if or elif else is the final statement.
 
 # Checking even or odd 
-number = 7
+number = 2
+
+if number %2 == 0:
+    print("The Number is even")
+else:
+    print("The Number is odd")
+
+# Complete if Elif Else chain
+
+temprature = 15
+if temprature > 30:
+    print("It's hot outside")
+elif temprature > 20:
+    print("It's warm outside")
+elif temprature > 10:
+    print("Its cool outside")
+else:
+   print("It's cold outside")
+
+# Else as fallback
+username = "Radha"
+
+if len(username) > 0:
+    print(f"Welcome devi {username} !")
+else:
+    print("Error Username cannot be empty")
+
+# Shorthand if 
+c = 10
+d = 20
+if c < d: print("d is greater")
+
+# Shorthand if else 
+e = 2
+f = 220
+print ("E") if e > f else print("F")
+
+no = 2
+print("Even") if no % 2 == 0 else print("Odd")
+
+umar = 20
+print("Adult") if umar > 18 else print ('Child')
+
+leap_year = 16
+print("Its a leap year") if leap_year % 4 == 0 else print("its not a leap year") 
+
+# Logic given by copilot 
+
+# ly = int(input("Enter year here : - >  "))
+# print(type(ly))
+# print(ly)
+# print("Its a leap year buddy congratulations") if (ly % 4 == 0 and ly % 100 != 0) or (ly % 400 == 0) else print("Its not a leap year") 
+
+which_no = 2
+number_type = "It's Even" if which_no % 2 == 0 else "It's Odd"
+print("Here is the type of number that user entered -- > ", number_type)
+
+# Multiple conditions in one line 
+ab = 10
+bc = 9
+print(f"{ab} is Greater") if ab > bc else print("=") if ab == bc else print(f"{bc} is Greater")
+
+aging = 15
+print("Teen") if aging == 18 else print("Adult") if aging > 18 else print("You are a kido") 
+
+percentage = 80
+remark = "Excellent" if percentage >= 90 else "good" if percentage >= 80 else "Fair" 
+print(f"Here is the remark for your {percentage} % -->  ",remark)
+
+u_name = ""
+
+display_name = u_name if u_name else "Guest User"
+print("Welcome", display_name )
