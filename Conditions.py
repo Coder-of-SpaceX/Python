@@ -177,3 +177,18 @@ u_name = ""
 
 display_name = u_name if u_name else "Guest User"
 print("Welcome", display_name )
+
+# Logical Operators in if statment
+a1 = 10
+a2 = 20
+a3 = 30
+if a1 < a2 and a2 < a3:
+    print(f"Congratulations both the conditions are true that is {a1} smaller than {a2} smaller than {a3}")
+
+b1 = 10
+b2 = 40
+b3 = 30
+if b3 > b1 or b3 > b2 :
+    print("B3 is greater")
+else:
+    print("b2 is greater")
